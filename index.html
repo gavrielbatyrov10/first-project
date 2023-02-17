@@ -10,7 +10,7 @@
   <body>
     <section>
       <nav>
-        <img src="./assets/FES.svg" alt="" />
+        <img src="./assets/FES.svg" class="logo" alt="" />
         <ul>
           <li><a href="#about">about</a></li>
           <li><a href="#discord">discord</a></li>
@@ -18,9 +18,10 @@
         </ul>
       </nav>
       <header>
+        <div class="row">
         <div>
           <h1>best place to learn font end</h1>
-          <p>
+          <p class="subheader">
             go from being an absolute beginer to being a pro with a simplified
             process
           </p>
@@ -29,37 +30,50 @@
         <figure>
           <img src="./assets/laptop.png" alt="ome page image" />
         </figure>
+    </div>
       </header>
     </section>
     <main>
       <section id="about">
         <h2>about</h2>
-        <div>
-          <p>
+        <div class="row">
+
+        
+        <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
             inventore vero quas molestias neque quaerat, commodi esse
             exercitationem recusandae iure omnis praesentium odio consequatur
             explicabo quisquam a, provident accusamus maxime.
           </p>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat
             possimus dolorum nulla ut modi porro incidunt neque nisi vel illo
             dolor, tenetur dignissimos ipsa quod consectetur deserunt
             repudiandae pariatur ex.
           </p>
         </div>
-        <figure>
+        <figure class="about__img--wrapper">
           <img src="./assets/about.jpg" alt="" />
         </figure>
+    </div>
+</div>
       </section>
 
       <section id="discord">
         <h2>discord</h2>
-        <figure>
+        <div class="row">
+
+       
+        <div class="section__description">
+        <figure class="about__img--wrapper">
           <img src="./assets/discord.png" alt="discord" />
         </figure>
+        <div class="section__description--wrapper">
+
         <div>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At
             asperiores architecto voluptatum voluptas velit animi consequatur
             soluta, quasi vero ea temporibus mollitia veritatis repellat amet
@@ -67,33 +81,38 @@
           </p>
         </div>
         <div>
-          <p>
+          <p class="section__description--para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At
             asperiores architecto voluptatum voluptas velit animi consequatur
             soluta, quasi vero ea temporibus mollitia veritatis repellat amet
             quibusdam aut ipsa consequuntur illo.
           </p>
         </div>
+    </div>
+    </div>
+</div>
       </section>
 
       <section id="contact">
         <h2>contat</h2>
         <form action="">
           <span>Email</span>
-          <input type="text" placeholder="james@example.com" />
+          <input type="email" placeholder="james@example.com" />
           <span>Message</span>
-          <textarea type="text" placeholder="james@example.com"></textarea>
+          <textarea type="text" placeholder="lets get conected"></textarea>
+         <button>Contact Us!</button>
         </form>
       </section>
     </main>
+
     <footer>
-      <img src="./assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">about</a>
-        <a href="discord">discord</a>
-        <a href="contact">contact</a>
-        <a href="">courses</a>
-        <p>copyright frontens simplified</p>
+      <img class="footer__logo" src="./assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">about</a>
+        <a class="footer__link" href="discord">discord</a>
+        <a class="footer__link" href="contact">contact</a>
+        <a class="footer__link" href="">courses</a>
+        <p>copyright frontend simplified</p>
       </div>
     </footer>
   </body>
